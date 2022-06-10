@@ -1,0 +1,46 @@
+{
+  "name": "backend-node-ts",
+  "version": "1.0.0",
+  "description": "Aplicacion Backend con NodeJs, Express, Typescript y TypeORM",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/server.js",
+    "start:dev": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grivarol69/backend-node-ts-orm.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "express",
+    "typeorm"
+  ],
+  "author": "Guille Rivar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grivarol69/backend-node-ts-orm/issues"
+  },
+  "homepage": "https://github.com/Grivarol69/backend-node-ts-orm#readme",
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "typeorm": "^0.3.6",
+    "typeorm-naming-strategies": "^4.1.0",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/morgan": "^1.9.3",
+    "concurrently": "^7.2.1",
+    "nodemon": "^2.0.16"
+  }
+}
