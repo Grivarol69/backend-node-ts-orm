@@ -1,2 +1,2 @@
-# Backend-Node-TS
-Backend con NodeJs, Typescript
+# Backend-Node-TS-Orm
+Backend con NodeJs, Typescript, TypeORM
